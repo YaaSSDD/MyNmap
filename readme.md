@@ -1,4 +1,4 @@
-# MyNmap is script for read file content IP and automatic start nmap command
+# MyNmap is script for read file content IP and automatic start nmap command on several IP
 
 ## Getting started
 
