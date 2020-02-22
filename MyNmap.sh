@@ -18,15 +18,3 @@ cat $IpFile | while  read ligne ; do
   nmap -p- $ThisTarget
   nmap -O $ThisTarget
 done
-
-
-
-
-  ##boucle nmap
-#  for x in `seq 1 $NBIP`;
- # do
-  #  read -p "enter your ip $I  ===========++>:" IP
-   # nmap -p- $IP
-    #nmap -O $IP
-    #I=$(($I + 1))
- # done
