@@ -6,10 +6,10 @@ export AllIpTab=()
 
 
 read -p "enter your path to file <IP>.txt" IpFile
+
+
 #boucle ip in file.txt overrride
 cat $IpFile | while  read ligne ; do
- 
- # echo ${AllIpTab[$ligne]}
   AllIpTab[$index]="$ligne"
   echo ${AllIpTab[$index]}
   ThisTarget=${AllIpTab[$index]}
